@@ -1,6 +1,8 @@
 # myapp
 A AWS mu Quickstart
 
+mu can you get by <a href="https://github.com/stelligent/mu">mu</a> or see <a href="https://getmu.io">getmu.io</a>
+
 Make the files index.html and the Dockerfile
 
 Initialize the mu.yml and buildspec.yml files: mu init --port 80 --env
