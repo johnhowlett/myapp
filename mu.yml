@@ -1,0 +1,10 @@
+environments:
+- name: acceptance
+- name: production
+service:
+  port: 80
+  haelthEndpoint: /
+  pathPatterns:
+  - /*
+  pipeline:
+
