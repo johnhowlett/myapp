@@ -1,6 +1,18 @@
 environments:
 - name: acceptance
+  provider: ecs-fargate
+  vpcTarget:
+    vpcId: vpc-0bb9049249a5325e5
+    instanceSubnetIds: 
+      - subnet-0ea643c2efb5d07f4
+      - subnet-01b0e1772f644d598
 - name: production
+  provider: ecs-fargate
+  vpcTarget:
+    vpcId: vpc-0bb9049249a5325e5
+    instanceSubnetIds: 
+      - subnet-0ea643c2efb5d07f4
+      - subnet-01b0e1772f644d598
 service:
   port: 80
   healthEndpoint: /
